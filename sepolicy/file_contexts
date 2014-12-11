@@ -31,3 +31,12 @@
 
 # Lockscreen wallpaper
 /data/system/users/[0-9]+/keyguard_wallpaper   u:object_r:wallpaper_file:s0
+
+###########################
+# Omni's Performance Control sepolicy
+#
+
+# performance-related sysfs files
+/sys/kernel/mm/ksm(/.*)?    u:object_r:sysfs_writable:s0
+/sys/block/mmcblk(/.*)?     u:object_r:sysfs_writable:s0
+/sys/block/zram(/.*)?       u:object_r:sysfs_writable:s0
