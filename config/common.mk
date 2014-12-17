@@ -148,10 +148,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     CMFileManager \
     Eleven \
-    LockClock \
-    CMUpdater \
-    CMAccount \
-    CMHome
+    LockClock 
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
