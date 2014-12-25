@@ -138,6 +138,7 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
+    PerformanceControl \
     Launcher3 \
     Trebuchet \
     AudioFX \
