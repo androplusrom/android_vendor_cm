@@ -286,8 +286,8 @@ endif
 
 # HFM Files
 PRODUCT_COPY_FILES += \
-	vendor/liquid/prebuilt/etc/hosts.alt:system/etc/hosts.alt \
-	vendor/liquid/prebuilt/etc/hosts.og:system/etc/hosts.og
+	vendor/cm/prebuilt/etc/hosts.alt:system/etc/hosts.alt \
+	vendor/cm/prebuilt/etc/hosts.og:system/etc/hosts.og
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.version=$(CM_VERSION) \
