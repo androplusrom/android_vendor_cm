@@ -145,8 +145,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     CMFileManager \
     Eleven \
-    LockClock \
-    PhotoPhase
+    LockClock
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
