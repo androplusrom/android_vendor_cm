@@ -137,7 +137,7 @@ PRODUCT_PACKAGES += \
     libemoji \
     Terminal
 
-# Custom CM packages
+# Extra packages
 PRODUCT_PACKAGES += \
     PerformanceControl \
     Launcher3 \
@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     CMFileManager \
     Eleven \
+    CalendarWidget \
     LockClock
 
 # CM Hardware Abstraction Framework
